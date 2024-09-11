@@ -1,0 +1,121 @@
+<! DOCTYPE html>
+  <html>
+
+  <head>
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="main-content">
+        <h1>Job Application</h1>
+        <span><img src="job.jpg" alt="" height="200px"></span>
+        <!-- <p>Kodu Coding Center</p>
+        <p>2nd Floor, Near Dominos Pizza, Barnala Road, Sirsa</p> -->
+      </div>
+
+      <nav>
+        <ul class="social">
+          <li><img src="phone-call.svg" alt="call"><span>+91-9729167979</span></li>
+          <li><img src="mail.svg" alt="email"><span>ANKURBANSAL7979@GMAIL.COM</span></li>
+          <li><img src="globe.svg" alt="browser"><span>WWW.GOOGLE.COM</span></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="Form.php" method="post">
+      <h2>PERSONAL INFORMATION</h2>
+      <div class="information">
+
+        <div class="first">
+          <div class="p-first">
+            <label>First Name: </label><br><br>
+            <input type="text" name="FirstName"/>
+          </div>
+
+          <div class="p-first">
+            <label>Father's Name: Sh. </label><br><br>
+            <input type="text" name="FatherName"/>
+          </div>
+
+          <div class="p-first">
+            <label>E-Mail:</label><br><br>
+            <input type="email" name="email"/>
+          </div>
+
+          <div class="p-first">
+            <label>Gender:</label><br><br>
+            <input type="radio" id="male" name="gender" />Male
+            <input type="radio" id="female" name="gender" />Female
+            <input type="radio" id="other" name="gender" />Other
+          </div>
+
+          <div class="p-first">
+            <label>Address:</label><br><br>
+            <input type="text" />
+          </div>
+
+          <div class="p-first">
+            <label>City:</label><br><br>
+            <input type="text" />
+          </div>
+
+          <div class="p-first">
+            <label>Education:</label><br><br>
+            <input type="text" /><br><br>
+            <input type="text" />
+          </div>
+        </div>
+
+        <div class="second">
+          <div class="p-second">
+            <label>Last Name:</label><br><br>
+            <input type="text" />
+          </div>
+
+          <div class="p-second">
+            <label>Mother's Name: Smt.</label><br><br>
+            <input type="text" />
+          </div>
+          <div class="p-second">
+            <label>Phone:</label><br><br>
+            <input type="number" />
+          </div>
+
+          <div class="p-second">
+            <label>Date of Birth:</label><br><br>
+            <input type="date" />
+          </div>
+
+          <div class="p-second">
+            <label>Street:</label><br><br>
+            <input type="text" />
+          </div>
+
+          <div class="p-second">
+            <label>Zip Code:</label><br><br>
+            <input type="text" />
+          </div>
+
+          <div class="p-second">
+            <label>Experience:</label><br><br>
+            <input type="text" /><br><br>
+            <input type="text" />
+          </div>
+        </div>
+      </div><br>
+
+
+      <input type="checkbox" name="term" id="term">
+      <label>By clicking here, I state that I have read and understood the <a href="terms.html"> TERMS AND
+          CONDITIONS.</a></label>
+
+      <div class="center"><br>
+        <input type="submit">
+        <input type="reset">
+      </div><br>
+    </form>
+  </body>
+
+  </html>
